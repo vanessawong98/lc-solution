@@ -1,5 +1,10 @@
 import java.util.*;
 
+/**
+ * Three Sum problem
+ *
+ * <a href="https://leetcode.com/problems/3sum/description/">Click here</a>
+ */
 public class ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {

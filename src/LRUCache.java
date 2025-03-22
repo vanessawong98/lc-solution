@@ -1,6 +1,10 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * The LRU Cache problem
+ * <a href="https://leetcode.com/problems/lru-cache/description/">Click here</a>
+ */
 public class LRUCache {
 
     private int maxCapacity;

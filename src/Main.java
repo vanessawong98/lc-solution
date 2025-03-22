@@ -1,8 +1,9 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * Playground for running solutions.
+ */
 public class Main {
     public static void main(String[] args) {
 
@@ -35,8 +36,22 @@ public class Main {
 
         /**
          * Return right side of binary tree
+         * Not working
          */
-        BinaryTreeSideView bt = new BinaryTreeSideView();
+//        BinaryTreeSideView bt = new BinaryTreeSideView();
+
+        /**
+         * Remove duplicates
+         */
+        int[] nums = {-3,-1,0,0,0,3,3}; // Input array
+        int[] expectedNums = {-3,-1,0,3}; // The expected answer with correct length
+
+        int k = RemoveDuplicate.removeDuplicates(nums); // Calls your implementation
+
+        assert k == expectedNums.length;
+        for (int i = 0; i < k; i++) {
+            System.out.println( nums[i]);
+        }
 
     }
 }
