@@ -43,15 +43,20 @@ public class Main {
         /**
          * Remove duplicates
          */
-        int[] nums = {-3,-1,0,0,0,3,3}; // Input array
-        int[] expectedNums = {-3,-1,0,3}; // The expected answer with correct length
+//        int[] nums = {-3,-1,0,0,0,3,3}; // Input array
+//        int[] expectedNums = {-3,-1,0,3}; // The expected answer with correct length
+//
+//        int k = RemoveDuplicate.removeDuplicates(nums); // Calls your implementation
+//
+//        assert k == expectedNums.length;
+//        for (int i = 0; i < k; i++) {
+//            System.out.println( nums[i]);
+//        }
 
-        int k = RemoveDuplicate.removeDuplicates(nums); // Calls your implementation
-
-        assert k == expectedNums.length;
-        for (int i = 0; i < k; i++) {
-            System.out.println( nums[i]);
-        }
-
+        /**
+         * Best Time to buy stocks (1)
+         */
+        int[] prices = {7,1,5,3,6,4};
+        System.out.println(BestTimeToBuyStocks.maxProfit(prices));
     }
 }
