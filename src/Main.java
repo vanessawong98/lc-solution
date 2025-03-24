@@ -56,7 +56,21 @@ public class Main {
         /**
          * Best Time to buy stocks (1)
          */
-        int[] prices = {7,1,5,3,6,4};
-        System.out.println(BestTimeToBuyStocks.maxProfit(prices));
+//        int[] prices = {7,1,5,3,6,4};
+//        System.out.println(BestTimeToBuyStocks.maxProfit(prices));
+
+        /**
+         * Two sum
+         * Not yet working
+         */
+//        int[] numbers = {2,7,11,15};
+//        int target = 9;
+//        System.out.println(TwoSum.twoSum(numbers, target)[0]);
+
+        /**
+         * Reverse String
+         */
+        char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
+        ReverseString.reverseString(s);
     }
 }
