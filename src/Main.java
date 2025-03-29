@@ -91,10 +91,15 @@ public class Main {
         /**
          * Max Consecutive Ones
          */
+//        int k = 2;
+//        int[] nums = {1,1,1,0,0,0,1,1,1,1,0};
+//
+//        System.out.println(MaxConsOnes.longestOnes(nums, k));
 
-        int k = 2;
-        int[] nums = {1,1,1,0,0,0,1,1,1,1,0};
-
-        System.out.println(MaxConsOnes.longestOnes(nums, k));
+        /**
+         * Sum of 1D Array
+         */
+        int[] nums = {1,2,3,4};
+        Arrays.stream(SumArray.runningSum(nums)).forEach(num -> System.out.print(num+ " "));
     }
 }
