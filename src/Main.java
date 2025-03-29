@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -70,7 +71,13 @@ public class Main {
         /**
          * Reverse String
          */
-        char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
-        ReverseString.reverseString(s);
+//        char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
+//        ReverseString.reverseString(s);
+
+        /**
+         * Sorted Squares
+         */
+        int[] nums = {-1, 2, 2};
+        Arrays.stream(SortedSquare.sortedSquares(nums)).forEach(System.out::println);
     }
 }
