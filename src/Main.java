@@ -83,10 +83,18 @@ public class Main {
         /**
          * Max Average Subarray
          */
-        int k = 4;
-        int[] nums = {1,12,-5,-6,50,3};
+//        int k = 4;
+//        int[] nums = {1,12,-5,-6,50,3};
+//
+//        System.out.println(MaxAvgSubarray.findMaxAverage(nums, k));
 
-        System.out.println(MaxAvgSubarray.findMaxAverage(nums, k));
+        /**
+         * Max Consecutive Ones
+         */
 
+        int k = 2;
+        int[] nums = {1,1,1,0,0,0,1,1,1,1,0};
+
+        System.out.println(MaxConsOnes.longestOnes(nums, k));
     }
 }
