@@ -77,7 +77,16 @@ public class Main {
         /**
          * Sorted Squares
          */
-        int[] nums = {-1, 2, 2};
-        Arrays.stream(SortedSquare.sortedSquares(nums)).forEach(System.out::println);
+//        int[] nums = {-1, 2, 2};
+//        Arrays.stream(SortedSquare.sortedSquares(nums)).forEach(System.out::println);
+
+        /**
+         * Max Average Subarray
+         */
+        int k = 4;
+        int[] nums = {1,12,-5,-6,50,3};
+
+        System.out.println(MaxAvgSubarray.findMaxAverage(nums, k));
+
     }
 }

@@ -1,5 +1,9 @@
 import java.util.Arrays;
 
+/**
+ * Sorted Squares
+ * <a href="https://leetcode.com/problems/squares-of-a-sorted-array/editorial/">Click here </a>
+ */
 public class SortedSquare {
     public static int[] sortedSquares(int[] nums) {
         int n = nums.length;
