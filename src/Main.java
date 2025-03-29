@@ -99,7 +99,13 @@ public class Main {
         /**
          * Sum of 1D Array
          */
-        int[] nums = {1,2,3,4};
-        Arrays.stream(SumArray.runningSum(nums)).forEach(num -> System.out.print(num+ " "));
+//        int[] nums = {1,2,3,4};
+//        Arrays.stream(SumArray.runningSum(nums)).forEach(num -> System.out.print(num+ " "));
+
+        /**
+         * Min Positive Sum
+         */
+        int[] nums = {2,3,5,-5,-1};
+        System.out.println(MinPositiveSum.minStartValue(nums));
     }
 }
