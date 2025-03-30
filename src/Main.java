@@ -111,8 +111,14 @@ public class Main {
         /**
          * K Radius Sub Averages
          */
-        int[] nums = {40527,53696,10730,66491,62141,83909,78635,18560};
-        int k = 2;
-        Arrays.stream(KRadSubarrAvg.getAverages(nums, k)).forEach(i -> System.out.print(i+ " "));
+//        int[] nums = {40527,53696,10730,66491,62141,83909,78635,18560};
+//        int k = 2;
+//        Arrays.stream(KRadSubarrAvg.getAverages(nums, k)).forEach(i -> System.out.print(i+ " "));
+
+        /**
+         * Reverse a string part 3
+         */
+        String s = "Let's take LeetCode contest";
+        System.out.println(ReverseStringIII.reverseWords(s));
     }
 }
