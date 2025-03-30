@@ -118,7 +118,15 @@ public class Main {
         /**
          * Reverse a string part 3
          */
-        String s = "Let's take LeetCode contest";
-        System.out.println(ReverseStringIII.reverseWords(s));
+//        String s = "Let's take LeetCode contest";
+//        System.out.println(ReverseStringIII.reverseWords(s));
+
+        /**
+         * Reverse only letters
+         */
+        String s = "Test1ng-Leet=code-Q!";
+        String expected = "Qedo1ct-eeLg=ntse-T!";
+        System.out.println(ReverseOnlyLetters.reverseOnlyLetters(s));
+        System.out.println(expected);
     }
 }

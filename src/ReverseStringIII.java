@@ -14,10 +14,9 @@ public class ReverseStringIII {
         String[] stringList = s.split(" ");
 
         for (int i = 0; i<stringList.length; i++) {
-            int strLength = stringList[i].length();
-            for (int j = strLength - 1; j >= 0; j--) {
-                sb.append(stringList[i].charAt(j));
-            }
+            StringBuilder temp = new StringBuilder(stringList[i]);
+            temp.reverse();
+            sb.append(temp.toString());
             if (i != stringList.length - 1){
                 sb.append(" ");
             }
