@@ -105,7 +105,14 @@ public class Main {
         /**
          * Min Positive Sum
          */
-        int[] nums = {2,3,5,-5,-1};
-        System.out.println(MinPositiveSum.minStartValue(nums));
+//        int[] nums = {2,3,5,-5,-1};
+//        System.out.println(MinPositiveSum.minStartValue(nums));
+
+        /**
+         * K Radius Sub Averages
+         */
+        int[] nums = {40527,53696,10730,66491,62141,83909,78635,18560};
+        int k = 2;
+        Arrays.stream(KRadSubarrAvg.getAverages(nums, k)).forEach(i -> System.out.print(i+ " "));
     }
 }
