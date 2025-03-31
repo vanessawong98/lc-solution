@@ -132,7 +132,13 @@ public class Main {
         /**
          * Pangram
          */
-        String sentence = "thequickbrownfoxjumpsoverthelazydog";
-        System.out.println(Pangram.checkIfPangram(sentence));
+//        String sentence = "thequickbrownfoxjumpsoverthelazydog";
+//        System.out.println(Pangram.checkIfPangram(sentence));
+
+        /**
+         * Missing Number
+         */
+        int[] nums = {0,1};
+        System.out.println(MissingNumber.missingNumber(nums));
     }
 }
