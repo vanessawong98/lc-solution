@@ -158,8 +158,16 @@ public class Main {
         /**
          * Contiguous Array
          */
-        int[] array = {0,1,1,1,1,1,0,0,0};
+//        int[] array = {0,1,1,1,1,1,0,0,0};
         //expected result = 6;
-        System.out.println(ContiguousArray.findMaxLength(array));
+//        System.out.println(ContiguousArray.findMaxLength(array));
+
+        /**
+         * Longest non repeat substring
+         */
+        String s = "pwwkew";
+        //Expected output = 3;
+        NoRepeatSubstring.lengthOfLongestSubstringWithHash(s);
+
     }
 }
