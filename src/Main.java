@@ -138,7 +138,13 @@ public class Main {
         /**
          * Missing Number
          */
-        int[] nums = {0,1};
-        System.out.println(MissingNumber.missingNumber(nums));
+//        int[] nums = {0,1};
+//        System.out.println(MissingNumber.missingNumber(nums));
+
+        /**
+         * Counting Elements
+         */
+        int[] nums = {1,3,2,3,5,0};
+        System.out.println(CountElements.countElements(nums));
     }
 }
