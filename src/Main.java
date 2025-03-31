@@ -124,9 +124,15 @@ public class Main {
         /**
          * Reverse only letters
          */
-        String s = "Test1ng-Leet=code-Q!";
-        String expected = "Qedo1ct-eeLg=ntse-T!";
-        System.out.println(ReverseOnlyLetters.reverseOnlyLetters(s));
-        System.out.println(expected);
+//        String s = "Test1ng-Leet=code-Q!";
+//        String expected = "Qedo1ct-eeLg=ntse-T!";
+//        System.out.println(ReverseOnlyLetters.reverseOnlyLetters(s));
+//        System.out.println(expected);
+
+        /**
+         * Pangram
+         */
+        String sentence = "thequickbrownfoxjumpsoverthelazydog";
+        System.out.println(Pangram.checkIfPangram(sentence));
     }
 }
