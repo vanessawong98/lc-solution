@@ -165,9 +165,32 @@ public class Main {
         /**
          * Longest non repeat substring
          */
-        String s = "pwwkew";
+//        String s = "pwwkew";
         //Expected output = 3;
-        NoRepeatSubstring.lengthOfLongestSubstringWithHash(s);
+//        NoRepeatSubstring.lengthOfLongestSubstringWithHash(s);
+
+        /**
+         * Reverse a linked list II
+         */
+        ListNode head = new ListNode(1);
+        ListNode two = new ListNode(2);
+        ListNode three = new ListNode(3);
+        ListNode four = new ListNode(4);
+        ListNode five = new ListNode(5);
+
+        head.next = two;
+        head.next.next = three;
+        head.next.next.next = four;
+        head.next.next.next.next = five;
+
+        ReverseLinkedListII reverseLL = new ReverseLinkedListII();
+        ListNode answer = reverseLL.reverseBetween(head, 2, 4);
+
+        System.out.println(answer.val);
+        System.out.println(answer.next.val);
+        System.out.println(answer.next.next.val);
+        System.out.println(answer.next.next.next.val);
+        System.out.println(answer.next.next.next.next.val);
 
     }
 }
