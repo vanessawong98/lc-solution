@@ -229,13 +229,46 @@ public class Main {
          * Validate a Stack Sequence
          */
 
-        int[] pushed = {1,2,3,4,5};
-        int[] popped = {4,3,5,2,1};
-        System.out.println(ValidateStack.validate(pushed, popped));
+//        int[] pushed = {1,2,3,4,5};
+//        int[] popped = {4,3,5,2,1};
+//        System.out.println(ValidateStack.validate(pushed, popped));
 
         /**
-         *
+         * Min Depth of a Binary Tree
          */
+//        TreeNode child1 = new TreeNode(9);
+//        TreeNode child2 = new TreeNode(20, new TreeNode(15),new TreeNode(7));
+        TreeNode child4 = new TreeNode(6);
+        TreeNode child3 = new TreeNode(5, null, child4);
+        TreeNode child2 = new TreeNode(4, null, child3);
+        TreeNode child1 = new TreeNode(3, null, child2);
+        TreeNode root = new TreeNode(2, null, child1);
 
+//        System.out.println(root.val);
+//        System.out.println(root.left.val);
+//        System.out.println(root.right.val);
+//        System.out.println(root.right.left.val);
+//        System.out.println(root.right.right.val);
+
+        BinaryTreeMinDepth search = new BinaryTreeMinDepth();
+        System.out.println(search.minDepth(root));
+
+        /**
+         * For fun
+         */
+//        recursion(0);
+
+    }
+
+    public static void recursion(int i) {
+        if (i > 5) {
+            System.out.println("Returning! "+i);
+            return;
+        }
+
+        System.out.println("Printing:: " + i);
+        recursion(i + 1);
+//        System.out.println("Returning:: current i :: "+i);
+//        return;
     }
 }
