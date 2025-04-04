@@ -196,8 +196,46 @@ public class Main {
          * Simplify Path
          */
 //        SimplifyPath.simplifyPath("/home/");
-        SimplifyPath.simplifyPath("/home/user/Documents/../Pictures");
+//        SimplifyPath.simplifyPath("/home/user/Documents/../Pictures");
 //        SimplifyPath.simplifyPath("/home//foo/");
+
+        /**
+         * Middle of a Linked List
+         */
+//        ListNode head = new ListNode(1);
+//        ListNode two = new ListNode(2);
+//        ListNode three = new ListNode(3);
+//        ListNode four = new ListNode(4);
+//        ListNode five = new ListNode(5);
+//        ListNode six = new ListNode(6);
+//
+//        head.next = two;
+//        head.next.next = three;
+//        head.next.next.next = four;
+//        head.next.next.next.next = five;
+//        head.next.next.next.next.next = six;
+//
+//        MidLinkedList findMid = new MidLinkedList();
+//        findMid.middleNode(head);
+
+        /**
+         * Remove starts and left character from string
+         */
+//        String s = "leet**cod*e";
+//        String s2 = "erase*****";
+//        System.out.println(RemoveStars.removeStars(s2));
+
+        /**
+         * Validate a Stack Sequence
+         */
+
+        int[] pushed = {1,2,3,4,5};
+        int[] popped = {4,3,5,2,1};
+        System.out.println(ValidateStack.validate(pushed, popped));
+
+        /**
+         *
+         */
 
     }
 }
