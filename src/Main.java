@@ -234,24 +234,33 @@ public class Main {
 //        System.out.println(ValidateStack.validate(pushed, popped));
 
         /**
-         * Min Depth of a Binary Tree
+         * Test data for Binary Tree problems
          */
-//        TreeNode child1 = new TreeNode(9);
-//        TreeNode child2 = new TreeNode(20, new TreeNode(15),new TreeNode(7));
-        TreeNode child4 = new TreeNode(6);
-        TreeNode child3 = new TreeNode(5, null, child4);
-        TreeNode child2 = new TreeNode(4, null, child3);
-        TreeNode child1 = new TreeNode(3, null, child2);
-        TreeNode root = new TreeNode(2, null, child1);
-
+        TreeNode child5 = new TreeNode(14, new TreeNode(13), null);
+        TreeNode child4 = new TreeNode(6, new TreeNode(4), new TreeNode(7));
+        TreeNode child3 = new TreeNode(1, null, null);
+        TreeNode child2 = new TreeNode(10, null, child5);
+        TreeNode child1 = new TreeNode(3, child3, child4);
+        TreeNode root = new TreeNode(8, child1, child2);
 //        System.out.println(root.val);
 //        System.out.println(root.left.val);
 //        System.out.println(root.right.val);
 //        System.out.println(root.right.left.val);
 //        System.out.println(root.right.right.val);
 
-        BinaryTreeMinDepth search = new BinaryTreeMinDepth();
-        System.out.println(search.minDepth(root));
+        /**
+         * Min Depth of a Binary Tree
+         */
+//        TreeNode child1 = new TreeNode(9);
+//        TreeNode child2 = new TreeNode(20, new TreeNode(15),new TreeNode(7));
+//        BinaryTreeMinDepth search = new BinaryTreeMinDepth();
+//        System.out.println(search.minDepth(root));
+
+        /**
+         * Max Diff between Node and Ancestor
+         */
+        MaxNodeDiff calculator = new MaxNodeDiff();
+        System.out.println(calculator.maxAncestorDiff(root));
 
         /**
          * For fun
