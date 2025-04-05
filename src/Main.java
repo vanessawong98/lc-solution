@@ -236,12 +236,12 @@ public class Main {
         /**
          * Test data for Binary Tree problems
          */
-        TreeNode child5 = new TreeNode(14, new TreeNode(13), null);
-        TreeNode child4 = new TreeNode(6, new TreeNode(4), new TreeNode(7));
-        TreeNode child3 = new TreeNode(1, null, null);
-        TreeNode child2 = new TreeNode(10, null, child5);
-        TreeNode child1 = new TreeNode(3, child3, child4);
-        TreeNode root = new TreeNode(8, child1, child2);
+//        TreeNode child5 = new TreeNode(14, new TreeNode(13), null);
+//        TreeNode child4 = new TreeNode(6, new TreeNode(4), new TreeNode(7));
+//        TreeNode child3 = new TreeNode(1, null, null);
+//        TreeNode child2 = new TreeNode(10, null, child5);
+//        TreeNode child1 = new TreeNode(3, child3, child4);
+//        TreeNode root = new TreeNode(8, child1, child2);
 //        System.out.println(root.val);
 //        System.out.println(root.left.val);
 //        System.out.println(root.right.val);
@@ -259,9 +259,17 @@ public class Main {
         /**
          * Max Diff between Node and Ancestor
          */
-        MaxNodeDiff calculator = new MaxNodeDiff();
-        System.out.println(calculator.maxAncestorDiff(root));
+//        MaxNodeDiff calculator = new MaxNodeDiff();
+//        System.out.println(calculator.maxAncestorDiff(root));
 
+        /**
+         * Diameter of a Binary Tree
+         */
+        TreeNode child2 = new TreeNode(3, null, null);
+        TreeNode child1 = new TreeNode(2, new TreeNode(4), new TreeNode(5));
+        TreeNode root = new TreeNode(1, child1, child2);
+        BinaryTreeDiameter diameterFinder = new BinaryTreeDiameter();
+        System.out.println(diameterFinder.diameterOfBinaryTree(root));
         /**
          * For fun
          */
