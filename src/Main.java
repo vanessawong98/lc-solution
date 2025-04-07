@@ -1,3 +1,5 @@
+import com.sun.source.tree.Tree;
+
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -265,11 +267,41 @@ public class Main {
         /**
          * Diameter of a Binary Tree
          */
-        TreeNode child2 = new TreeNode(3, null, null);
-        TreeNode child1 = new TreeNode(2, new TreeNode(4), new TreeNode(5));
-        TreeNode root = new TreeNode(1, child1, child2);
-        BinaryTreeDiameter diameterFinder = new BinaryTreeDiameter();
-        System.out.println(diameterFinder.diameterOfBinaryTree(root));
+//        TreeNode child2 = new TreeNode(3, null, null);
+//        TreeNode child1 = new TreeNode(2, new TreeNode(4), new TreeNode(5));
+//        TreeNode root = new TreeNode(1, child1, child2);
+//        BinaryTreeDiameter diameterFinder = new BinaryTreeDiameter();
+//        System.out.println(diameterFinder.diameterOfBinaryTree(root));
+
+        /**
+         * Deepest Leaves Sum
+         */
+//        TreeNode child6 = new TreeNode(6, null, new TreeNode(8));
+//        TreeNode child4 = new TreeNode(4, new TreeNode(7), null);
+//        TreeNode child2 = new TreeNode(2, child4, new TreeNode(5));
+//        TreeNode child3 = new TreeNode(3, null, child6);
+//
+//        TreeNode root = new TreeNode(1, child2, child3);
+//
+//        TreeNode example2 = new TreeNode(
+//            6,
+//            new TreeNode(7,
+//                    new TreeNode(2, new TreeNode(9), null),
+//                    new TreeNode(7, new TreeNode(1), new TreeNode(4))),
+//            new TreeNode(8,
+//                    new TreeNode(1),
+//                    new TreeNode(3, null, new TreeNode(5)))
+//        );
+//
+//        BinaryTreeLeafSum calculator = new BinaryTreeLeafSum();
+//        System.out.println(calculator.findSum(example2));
+
+        /**
+         * Zig Zag Binary Tree
+         */
+
+
+
         /**
          * For fun
          */
